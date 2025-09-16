@@ -1,0 +1,80 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: black;
+    width: 300px;
+}
+.fore{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 460px;
+    
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    outline: none;
+}
+button{
+    padding: 10px 15px;
+    margin-left: 10px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover{
+    background: black;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    background: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+ul li.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+.delete-btn{
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* .delete:hover{
+    background: darkred;
+} */
